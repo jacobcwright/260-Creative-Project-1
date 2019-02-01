@@ -1,0 +1,107 @@
+
+#home {
+    margin-top: 50px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-pic {
+    width: 66%;
+    height: 25%;
+    max-height: 900px;
+    
+}
+
+#home-img {
+    margin-right: -200px;
+}
+
+#login {
+    background-color: white;
+    max-width: 25%;
+}
+
+.navbar-brand{
+    font-size: 12px;
+    display: flex !important;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+
+#form-text {
+    font-weight: 600 !important;
+    line-height: 20px !important;
+    font-size: 17px !important;
+    margin: 0 40px 10px !important;
+    color: #999;
+    text-align: center;
+}
+
+#Instagram {
+    margin: 22px auto 12px;
+    display: flex;
+    justify-content: center;
+}
+
+#fb-login{
+    background-color: #3897F0;
+    color: white;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    padding: 5px 9px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#line {
+    width: 100%;
+    margin-top: .78rem;
+    margin-bottom: 1rem;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+#break {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: rgb(190, 190, 190);
+}
+
+
+#text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+input {
+    margin: 5px;
+    border: 1px solid #efefef;
+    background: #fafafa;
+    font-size: 12px !important;
+    color: #999;
+    width: 100%;
+    height: 36px;
+    left: 8px;
+    padding: 10px;
+
+}
+
+#buttons {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+html {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important;
+}
