@@ -150,3 +150,23 @@ a {
     margin-left: 400px;
     margin-right: 400px;
 }
+
+#profile-header{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+#username{
+    flex-shrink: 1;
+}
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+#edit-profile {
+
+}
