@@ -34,7 +34,7 @@
 #form-text {
     font-weight: 600 !important;
     line-height: 20px !important;
-    font-size: 17px !important;
+    font-size: 14px !important;
     margin: 0 40px 10px !important;
     color: #999;
     text-align: center;
@@ -54,7 +54,7 @@
     padding: 5px 9px;
     width: 100%;
     text-align: center;
-    
+    margin-bottom: 10px;
 }
 
 #line {
@@ -102,6 +102,51 @@ input {
     margin-top: 10px;
 }
 
-html {
+body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important;
+    background-color: #f3f3f3 !important;
+}
+
+a {
+    color: black;
+}
+
+.portfolio {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #explore-title {
+    margin-left: 300px;
+    margin-right: 300px;  
+    font-size: 16px;
+    color: #999
+}
+
+#search-bar {
+    position: relative;
+    left: 500px;
+}
+
+#my-nav {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif !important;
+    background-color: white;
+}
+
+.feed {
+    display: grid;
+    grid-template: auto auto auto auto auto / 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
