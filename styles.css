@@ -8,9 +8,11 @@
 }
 
 #home-pic {
-    width: 66%;
+    width: 50%;
     height: 25%;
     max-height: 900px;
+    position: relative;
+    right: -100px;
     
 }
 
@@ -21,6 +23,8 @@
 #login {
     background-color: white;
     max-width: 25%;
+    position: relative;
+    left: -100px;
 }
 
 .navbar-brand{
